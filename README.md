@@ -27,7 +27,7 @@ A Java Swing-based Smart Library Locker Management System using OOP principles a
 
 ## 📂 Project Structure
 
-
+```
 LibraryLockerSystem/
 |
 ├── src/
@@ -72,9 +72,9 @@ LibraryLockerSystem/
 ├── .gitignore
 ├── README.md
 └── pom.xml (optional)
+```
 
 ---
-
 
 ## ▶️ How to Run
 
