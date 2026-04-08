@@ -27,25 +27,52 @@ A Java Swing-based Smart Library Locker Management System using OOP principles a
 
 ## 📂 Project Structure
 
-LibraryLockerSystem/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/com/locker/
-│   │   │   ├── Main.java
-│   │   │
-│   │   │   ├── model/
-│   │   │   ├── service/
-│   │   │   ├── dao/
-│   │   │   ├── ui/
-│   │   │   ├── utils/
-│
-├── database/
-│   ├── schema.sql
-│
-├── README.md
-└── .gitignore
+## Project Structure
 
+LibraryLockerSystem/
+|
+├── src/
+|   ├── main/
+|   |   ├── java/com/locker/
+|   |   |   ├── Main.java
+|   |   |
+|   |   |   ├── model/
+|   |   |   |   ├── Student.java
+|   |   |   |   ├── Locker.java
+|   |   |   |   ├── Transaction.java
+|   |   |
+|   |   |   ├── service/
+|   |   |   |   ├── LockerService.java
+|   |   |   |   ├── StudentService.java
+|   |   |   |   ├── TransactionService.java
+|   |   |
+|   |   |   ├── dao/
+|   |   |   |   ├── DBConnection.java
+|   |   |   |   ├── StudentDAO.java
+|   |   |   |   ├── LockerDAO.java
+|   |   |   |   ├── TransactionDAO.java
+|   |   |
+|   |   |   ├── ui/
+|   |   |   |   ├── LoginUI.java
+|   |   |   |   ├── DashboardUI.java
+|   |   |   |   ├── IssueLockerUI.java
+|   |   |   |   ├── ReturnLockerUI.java
+|   |   |   |   ├── AdminPanelUI.java
+|   |   |
+|   |   |   ├── utils/
+|   |   |       ├── TimeUtil.java
+|   |   |       ├── Validator.java
+|
+├── resources/
+|   ├── icons/
+|   ├── styles/
+|
+├── database/
+|   ├── schema.sql
+|
+├── .gitignore
+├── README.md
+└── pom.xml (optional)
 
 ---
 
